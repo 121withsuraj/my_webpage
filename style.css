@@ -9,7 +9,7 @@
     
 }
 body{
-    background-image: url(../images/background4.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ body{
 .image{
     height: 250px;
     width: 200px;
-    background-image: url(../images/profile-pic.jpeg);
+    background-image: url(images/profile-pic.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 25px;
