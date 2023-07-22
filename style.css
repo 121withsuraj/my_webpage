@@ -39,7 +39,7 @@ body{
 .about-col-1{
     flex-basis: 23%;
     padding: 10px;
-    height: 90vh;
+    height: 92vh;
     background-color: aliceblue;
     border-radius: 25px;
     position: relative;
@@ -49,16 +49,17 @@ body{
     align-items: center;
 }
 .image{
-    height: 250px;
+    height: 200px;
     width: 200px;
     background-image: url(images/profile-pic.jpeg);
     background-position: center;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.47);
 }
 
 .title-id{
-    margin-top: 5px;
+    margin-top: 15px;
     height: 70px;
     width: 250px;
 }
@@ -67,17 +68,28 @@ body{
 }
 .title-id h3{
     font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+   
 }
 .social{
-   margin-top: 5px;
+   margin-top: 1px;
    height: 60px;
    width: 250px;
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
+.social-icons{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.168);
+}
+
 .social i{
-    font-size: 40px;
+    font-size: 25px;
     cursor:pointer ;
 }
 .contacts{
@@ -121,9 +133,6 @@ body{
     font-size: 20px;
 }
 
-
-
-
 .cv{
    height: 80px;
    width: 200px;
@@ -166,13 +175,12 @@ body{
 
 }
 .about-col-3-inside{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     height: 500px;
     justify-content: space-between;
 }
-.about{
+.Side-menu{
     height: 84px;
     width: 84px;
     border-radius: 16px;
@@ -181,45 +189,7 @@ body{
     justify-content:center ;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    
-    
-}
-.projects{
-    height: 84px;
-    width: 84px;
-    border-radius: 16px;
-    background-color: azure;
-    align-items: center;
-    justify-content:center ;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    
-}
-.experiance{
-    height: 84px;
-    width: 84px;
-    border-radius: 16px;
-    background-color: azure;
-    align-items: center;
-    justify-content:center ;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    
-}
-.others{
-    height: 84px;
-    width: 84px;
-    border-radius: 16px;
-    background-color: azure;
-    align-items: center;
-    justify-content:center ;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-
+    font-size: 13px;   
 }
 
 
