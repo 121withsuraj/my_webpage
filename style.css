@@ -9,7 +9,7 @@
     
 }
 body{
-    background-image: url(images/profile-pic.jpG);
+    background-image: url(images/profile-pic.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ body{
 .image{
     height: 250px;
     width: 200px;
-    background-image: url(images/profile-pic.jpG);
+    background-image: url(images/profile-pic.JPG);
     background-position: center;
     background-size: cover;
     border-radius: 25px;
