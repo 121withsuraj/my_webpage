@@ -38,7 +38,7 @@ body{
 
 .about-col-1{
     flex-basis: 23%;
-    padding: 10px;
+    padding: 5px 10px;
     height: 92vh;
     background-color: aliceblue;
     border-radius: 25px;
@@ -49,6 +49,7 @@ body{
     align-items: center;
 }
 .image{
+    
     height: 200px;
     width: 200px;
     background-image: url(images/profile-pic.jpeg);
@@ -80,6 +81,7 @@ body{
    align-items: center;
 }
 .social-icons{
+    box-shadow: 2px 2px 5px rgb(213, 134, 250);
     height: 40px;
     width: 40px;
     display: flex;
@@ -87,50 +89,97 @@ body{
     justify-content: center;
     background-color: rgba(128, 128, 128, 0.168);
 }
+.social-icons a{
+        color: #0060B6;
+        text-decoration: none;
+}
 
 .social i{
     font-size: 25px;
     cursor:pointer ;
 }
 .contacts{
-    margin-top: 5px;
-    height: 200px;
-    width: 250px;
-    border: 1px solid red;
+    margin-top: 2px;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f6f6;
+    border-radius: 20px;
+    background: rgba(128, 128, 128, 0.080);
+    
+    
+}
+.contacts-info{
+    padding: 7px 7px;
+    height: 250px;
+    width: 260px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(229, 247, 252);
-    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts-icon{
+    box-shadow: 2px 2px 5px lightblue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.125);
+}
+.contacts-icon i{
+    font-size: 20px;
+    cursor: pointer;
 }
 .phone{
-    
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 20px;
+    justify-content: space-between;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    position: relative; 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.355);
 }
+
 .email{
-    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.355);
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 20px;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-.location{
-    
+
+.birthday{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.355);
     width: 50px;
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 20px;
+    justify-content: space-between;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+.location{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.355);
+    width: 50px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .cv{
