@@ -17,11 +17,13 @@ body{
 .topbar{
     height: 90px;
     width: 90%;
-    border:1px solid red;
     display: inline-block;
     margin-top: 2%;
     margin-left: 5%;
     background:transparent;
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
 }
 
 .content-wrapper{
@@ -80,6 +82,9 @@ body{
    justify-content: space-around;
    align-items: center;
 }
+
+    /* @keyframes social-icon-color: */
+
 .social-icons{
     box-shadow: 2px 2px 5px rgb(213, 134, 250);
     height: 40px;
@@ -124,7 +129,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contacts-icon{
-    box-shadow: 2px 2px 5px lightblue;
+    box-shadow: 2px 2px 5px rgb(169, 169, 169);
     height: 40px;
     width: 40px;
     display: flex;
@@ -192,6 +197,7 @@ body{
 }
 
 .btn {
+  box-shadow: 3px 3px 5px rgb(107, 140, 251);
   background-color: DodgerBlue;
   border: none;
   color: white;
@@ -200,6 +206,7 @@ body{
   font-size: 21px;
   border-radius: 10px;
   transition: .3s ease-in-out;
+  border: 1px solid grey;
 }
 .btn:hover {
     background-color:white;
@@ -239,6 +246,9 @@ body{
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;   
+}
+.Side-menu a{
+    text-decoration: none;
 }
 
 
